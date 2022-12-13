@@ -1,6 +1,6 @@
 #### Search a 2D Matrix
 
-**1. Using while loop (Sorted Array)**
+**1. Using Loops**
 
 - Time Complexity - O(row+col)
 

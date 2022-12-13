@@ -1,8 +1,9 @@
 #### 1) Contains Duplicate
 **1.1 Sort the array.**
 
-Time Complexity - O(nLogn)
-Space Complexity - O(1)
+- Time Complexity - O(nLogn)
+
+- Space Complexity - O(1)
 
 ```java
 class Solution {
@@ -23,8 +24,9 @@ public boolean containsDuplicate(int[] nums) {
 
 **1.2 Using Hash Set.**
 
-Time Complexity - O(n)
-Space Complexity - O(n)
+- Time Complexity - O(n)
+
+- Space Complexity - O(n)
 
 ```java
 class Solution {
@@ -46,9 +48,9 @@ public boolean containsDuplicate(int[] nums) {
 #### 2) Valid Anagram
 
 **2.1 Convert the String into Character array, then sort the elements and compare the two character array.**
-Time Complexity - O(sLogs) OR O(tLogt)
 
-Space Complexity - O(s+t)
+- Time Complexity - O(sLogs) OR O(tLogt)
+- Space Complexity - O(s+t)
 
 ```java
 class Solution {
@@ -77,9 +79,8 @@ class Solution {
 
 **2.2 Using HashMap**
 
-Time Complexity - O(s) OR O(t)
-
-Space Complexity - O(s+t)
+- Time Complexity - O(s) OR O(t)
+- Space Complexity - O(s+t)
 
 ```java
 class Solution {

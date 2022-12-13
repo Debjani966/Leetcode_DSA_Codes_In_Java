@@ -1,11 +1,11 @@
-#### 3) Two Sum
+#### Two Sum
 
 **1. Normal Loop Method**
 
 - Time Complexity - O(n^2)
 - Space Complexity - O(1)
 
-```java
+```
 class Solution {
 	public int[] twoSum(int[] nums, int target) {
     	int A[]=new int[2];
@@ -30,9 +30,7 @@ class Solution {
 - Time Complexity - O(n)
 - Space Complexity - O(n)
 
-
-
-```java
+```
 // key=nums[i], value=index
 
 class Solution {
@@ -57,4 +55,3 @@ class Solution {
 	}
 }
 ```
-

@@ -1,4 +1,4 @@
-####Valid Palindrome
+#### Valid Palindrome
 
 **1. Remove special Characters then reverse and compare.**
 

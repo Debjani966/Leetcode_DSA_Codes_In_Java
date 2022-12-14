@@ -1,23 +1,29 @@
 ####Happy Number
 
-**1. Using While Loop**
+**1. Using HashSet**
 
 ```java
 class Solution {
     public boolean isHappy(int n) {
         int d,sum=0;
-        while(n>0 || sum>9)
+        HashSet hs =new HashSet();
+        while(true)
         {
-            if(n==0)
+            sum=0;
+            while(n>0)
             {
-                n=sum;
-                sum=0;
+                d=n%10;
+                sum=sum+(d*d);
+                n=n/10;
             }
-            d=n%10;
-            sum=sum+(d*d);
-            n=n/10;
+            if(sum==1 || hs.contains(sum))
+            {
+                break;
+            }
+            hs.add(sum);
+            n=sum;
         }
-        if(sum==1 ||sum==7)
+        if(sum==1)
             return true;
         else
             return false;
